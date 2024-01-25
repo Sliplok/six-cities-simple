@@ -1,4 +1,4 @@
-function OfferPage() : React.JSX.Element {
+function OfferPage() : JSX.Element {
   return (
     <div className="page">
       <header className="header">

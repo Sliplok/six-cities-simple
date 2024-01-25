@@ -8,7 +8,7 @@ function getPlaceCards(cardCount : number) {
   return Array.from({length: cardCount}, (_, index : number) => <PlaceCard key={index}/>);
 }
 
-function MainPage({placesCount} : MainPageProps) : React.JSX.Element {
+function MainPage({placesCount} : MainPageProps) : JSX.Element {
   return (
     <div className="page page--gray page--main">
       <header className="header">
